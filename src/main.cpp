@@ -164,8 +164,8 @@ void update_intake_dir(pros::Motor* intake, pros::Motor* pto, pros::ADIDigitalOu
 }
 
 
-const ui32 straight_speed = 62;
-const ui32 turn_speed = 100;
+const ui32 straight_speed = 100;
+const ui32 turn_speed = 62;
 const ui32 straight_deadzone = 12;
 const ui32 turn_deadzone = 12;
 #define straight_multiplier (straight_speed * 0.01)
