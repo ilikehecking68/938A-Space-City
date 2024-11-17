@@ -187,14 +187,14 @@ void opcontrol() {
 			pto_piston.set_value(true);
 		}
 		if (controller.get_digital(DIGITAL_R2)){
-			intake.move(-127);
 			pto.move(-127);
+			intake.move(-127);
 		} else if (controller.get_digital(DIGITAL_R1)){
-			intake.move(127);
 			pto.move(127);
+			intake.move(127);
 		} else {
-			intake.move(0);
 			pto.move(0);
+			intake.move(0); 
 		}
 		//doinker
 		if (controller.get_digital_new_press(DIGITAL_A)){
