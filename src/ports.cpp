@@ -3,11 +3,11 @@
 using namespace pros;
 using namespace lemlib;
 
-MotorGroup left_dt({-12, -11, 15});    // Creates a motor group with forwards ports 1 & 3 and reversed port 2
-MotorGroup right_dt({17, 20, -16});  // Creates a motor group with forwards port 5 and reversed ports 4 & 6
+MotorGroup left_dt({-11, 12, 23});    // Creates a motor group with forwards ports 1 & 3 and reversed port 2
+MotorGroup right_dt({18, 19, -20});  // Creates a motor group with forwards port 5 and reversed ports 4 & 6
 
 //Initializing Odom Sensors
-IMU imu(13);
+IMU imu(15);
 Rotation odom_side_sensor(18);
 
 //Config. Tracking Wheels

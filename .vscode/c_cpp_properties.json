@@ -4,7 +4,8 @@
       "name": "PROS Project",
       "includePath": [
         "${workspaceFolder}/**",
-        "/home/rk/Documents/dev2/prosCCPP/938a_code_lemlib/include"
+        "/home/rk/Documents/dev2/prosCCPP/938a_code_lemlib/include",
+        "/home/rk/Documents/dev2/prosCCPP/938A SpaceCity Proj./938A Space City/include"
       ],
       "defines": [
         "_DEBUG",
@@ -17,7 +18,7 @@
       "intelliSenseMode": "gcc-arm",
       "browse": {
         "path": [
-          "/home/rk/Documents/dev2/prosCCPP/938a_code_lemlib"
+          "/home/rk/Documents/dev2/prosCCPP/938A SpaceCity Proj./938A Space City"
         ],
         "limitSymbolsToIncludedHeaders": true,
         "databaseFilename": ""
