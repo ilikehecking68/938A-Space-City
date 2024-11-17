@@ -1,5 +1,4 @@
 #include "ports.hpp"
-
 using namespace pros;
 using namespace lemlib;
 
@@ -8,7 +7,7 @@ MotorGroup right_dt({18, 19, -20});  // Creates a motor group with forwards port
 
 //Initializing Odom Sensors
 IMU imu(15);
-Rotation odom_side_sensor(18);
+Rotation odom_side_sensor(16);
 
 //Config. Tracking Wheels
 TrackingWheel odom_side(&odom_side_sensor, 2, 0, 1);
