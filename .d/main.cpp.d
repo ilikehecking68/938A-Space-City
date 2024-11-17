@@ -141,7 +141,7 @@ bin/main.cpp.o: src/main.cpp include/main.h include/api.h \
  include/fmt/args.h include/lemlib/logger/message.hpp \
  include/lemlib/logger/infoSink.hpp \
  include/lemlib/logger/telemetrySink.hpp include/easy_types.h \
- include/util.h include/easy_types.h
+ include/util.h include/easy_types.h include/ports.hpp
 include/main.h:
 include/api.h:
 include/pros/adi.h:
@@ -382,3 +382,4 @@ include/lemlib/logger/telemetrySink.hpp:
 include/easy_types.h:
 include/util.h:
 include/easy_types.h:
+include/ports.hpp:
