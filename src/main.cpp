@@ -178,7 +178,7 @@ void opcontrol() {
 	while (true) {
 		i32 straight_joystick = controller.get_analog(ANALOG_LEFT_Y);
 		i32 turn_joystick = controller.get_analog(ANALOG_RIGHT_X);
-		dt.arcade(straight_multiplier * straight_joystick, turn_multiplier * turn_joystick);
+		dt.arcade( turn_multiplier * turn_joystick, straight_multiplier * straight_joystick);
 
 		//intake
 		if (controller.get_digital_new_press(DIGITAL_R2) && controller.get_digital_new_press(DIGITAL_R1)){
